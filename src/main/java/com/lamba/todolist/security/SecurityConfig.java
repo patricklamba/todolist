@@ -1,6 +1,8 @@
-package com.lamba.todolist.security.jwt;
+package com.lamba.todolist.security;
 
 import com.lamba.todolist.repositories.UserRepository;
+import com.lamba.todolist.security.jwt.JwtAuthenticationFilter;
+import com.lamba.todolist.security.jwt.JwtAuthorizationFilter;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
